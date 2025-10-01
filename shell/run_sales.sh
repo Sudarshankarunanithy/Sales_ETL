@@ -11,6 +11,6 @@ RUN_DATE="$1"
 echo "Triggering sales_etl_job.py for $RUN_DATE..."
 
 # Run spark-submit inside spark-master container
-docker exec spark-master spark-submit /opt/spark-apps/sudha_1/scripts/sales_etl_job.py "$RUN_DATE"
+docker exec spark-master spark-submit /opt/spark-apps/sudha_1/shell/sales_etl_job.py "$RUN_DATE"
 
 echo "Job completed for $RUN_DATE"
