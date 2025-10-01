@@ -94,6 +94,3 @@ Sudarshan Karunanithy
 sudarshankarunanithy7@gmail.com
 
 ---
-
-✅ This is now a **clean, properly formatted Markdown block**.  
-Would you like me to also add a **table of contents** at the top (with links to sections like Overview, Tech Stack, Setup, Features, etc.) for even more polish?
