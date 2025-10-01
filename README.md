@@ -1,11 +1,11 @@
-# 🚀 Sales_ETL (PySpark + Docker + HDFS)
+# Sales_ETL (PySpark + Docker + HDFS)
 
 A prototype **ETL pipeline** built using **PySpark, Docker, HDFS, and Shell scripting**.  
 This project demonstrates how raw sales data can be ingested, transformed, and stored efficiently using a modern data engineering stack.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 The purpose of this project is to simulate a real-world **ETL workflow**:
 
 1. **Extract** – Load raw input files (CSV/JSON).
@@ -14,7 +14,7 @@ The purpose of this project is to simulate a real-world **ETL workflow**:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **PySpark** – Data processing and transformations  
 - **Docker + Docker Compose** – Containerized environment for Spark & HDFS  
 - **HDFS** – Distributed storage layer  
@@ -23,7 +23,7 @@ The purpose of this project is to simulate a real-world **ETL workflow**:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 Sales_ETL/
 │
@@ -45,18 +45,18 @@ Sales_ETL/
 └── docker-compose.yml      # (if added for Spark + HDFS setup)
 ---
 ```
-## ⚙️ Setup & Run
+## Setup & Run
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone git@github.com:Sudarshankarunanithy/Sales_ETL.git
 cd Sales_ETL
 ```
-2️⃣ Build & Start Docker Services
+2️ Build & Start Docker Services
 ```bash
 docker-compose up -d
 ```
-3️⃣ Submit the ETL Job
+3️ Submit the ETL Job
 ```bash
 sh shell/run_sales.sh
 ```
